@@ -1,16 +1,14 @@
-# Angular ShowCase Application
+[![N|Solid](https://github.com/raymondwbayly/rays-graphic-assets/blob/master/banners/pub/git-readme-banner.png?raw=true)](#)
+
+## Angular ShowCase Application
 ### This is the seed for Quick Start Projects
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
-
 
 ## What is a bloc ?
 A bloc is a site area allowing you to package multiple views within an area to deliver it to the site, an area could be a store or a user area , but the architecture of the seed is built upon the bloc architecture.
 
-[![N|Solid](https://github.com/BaylyConsulting/BC-Angular-4-Seed/blob/V-2-0-0/src/assets/i/figure1.jpg?raw=true)]()
+---
 
-
-Creating a new Bloc
+## Creating a new Bloc
 
 1. Create a folder under ```/src``` calling it your bloc name ```name.bloc```
 2. populate it with the files from the example.bloc and edit it to create a new bloc (new module and component name)
@@ -18,6 +16,11 @@ Creating a new Bloc
 
 
 then you are good to go and ready to use the board library
+
+---
+[![N|Solid](https://github.com/raymondwbayly/rays-graphic-assets/blob/master/banners/pub/git-readme-content-banner.png?raw=true)](#)
+
+---
 
 ## Development server
 
