@@ -1,0 +1,43 @@
+{
+    "name": "bc-angular-5-seed",
+    "version": "2.0.0",
+    "license": "MIT",
+    "engines": {
+        "node": ">= 8.9.3"
+    },
+    "scripts": {
+        "ng": "ng",
+        "start": "ng serve",
+        "build": "ng build",
+        "build_prod": "ng build --prod",
+        "test": "ng test",
+        "tslint": "ng lint --fix",
+        "stylelint": "./node_modules/stylelint/bin/stylelint.js src/**/*.scss --config .stylelintrc.json --syntax scss"
+    },
+    "private": true,
+    "dependencies": {
+        "@angular-devkit/build-angular": "^0.900.2",
+        "@angular/common": "^7.1.0",
+        "@angular/compiler": "^7.1.0",
+        "@angular/compiler-cli": "^9.0.1",
+        "@angular/core": "^7.1.0",
+        "@angular/forms": "^7.1.0",
+        "@angular/platform-browser": "^7.1.0",
+        "@angular/platform-browser-dynamic": "^7.1.0",
+        "@angular/router": "^7.1.0",
+        "core-js": "^2.5.7",
+        "rxjs": "^6.3.3",
+        "zone.js": "^0.8.26"
+    },
+    "devDependencies": {
+        "@types/node": "^10.12.2",
+        "angular2-template-loader": "^0.6.2",
+        "html-webpack-plugin": "^3.2.0",
+        "raw-loader": "^1.0.0",
+        "ts-loader": "^5.2.2",
+        "typescript": "^3.7.5",
+        "webpack": "^4.41.6",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.10.3"
+    }
+}

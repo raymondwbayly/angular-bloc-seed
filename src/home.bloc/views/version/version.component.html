@@ -1,0 +1,37 @@
+<div class="app-container">
+    <mat-card class="http-test-card">
+      <mat-card-header>
+        <div mat-card-avatar class="header-image"></div>
+        <mat-card-title-group>
+          <mat-card-title>
+              {{ this.title | uppercase }} VERSION INFORMATION
+          </mat-card-title>
+          <mat-card-subtitle>Version {{ this.version }}</mat-card-subtitle>
+        </mat-card-title-group>
+      </mat-card-header>
+      <br>
+    <br>
+    <img mat-card-image src="/assets/i/version.png" alt="Version">
+    <br>
+    <hr>
+    <br>
+    <span class="description">Information on Releases for this Application</span>
+    <br>
+    <br>
+    <br>
+    <br>
+      <mat-card-content>
+        <div align="left">
+          <span *ngFor="let release of releases; count as count; index as i">
+              <span class="releasetitle">{{ release.title }}</span><br><br>
+              <span class="releaseversion">Version: {{ release.version }}</span><br>
+              <span class="releasedate">Date: {{ release.releasedate }}</span><br>
+              <span class="releasedescription">{{ release.description }}</span><br>
+              <hr>
+              <br><br>
+            </span>
+          </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+

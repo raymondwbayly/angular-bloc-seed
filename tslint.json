@@ -1,0 +1,131 @@
+{
+  "lintOptions": {
+    "typeCheck": true
+  },
+  "extends": "tslint:recommended",
+  "rulesDirectory": ["node_modules/tslint-no-unused-var"],
+  "rules": {
+    "max-line-length": [true, 500],
+    "indent": [true, "spaces", 2],
+    "no-inferrable-types": false,
+    "class-name": true,
+    "cyclomatic-complexity": false,
+    "newline-before-return": false,
+    "no-parameter-properties": false,
+    "no-parameter-reassignment": false,
+    "no-string-literal": false,
+    "object-literal-shorthand": false,
+    "member-access": true,
+    "completed-docs": false,
+    "no-any": false,
+    "no-magic-numbers": false,
+    "no-non-null-assertion": false,
+    "no-null-keyword": false,
+    "jsdoc-format": false,
+    "no-require-imports": false,
+    "no-unbound-method": false,
+    "no-unnecessary-qualifier": false,
+    "no-use-before-declare": false,
+    "no-void-expression": false,
+    "prefer-function-over-method": false,
+    "strict-type-predicates": false,
+    "align": [false, "parameters", "statements"],
+    "object-literal-sort-keys": false,
+    "triple-equals": [false, "allow-undefined-check"],
+    "typedef": false,
+    "ban": [true, ["describe", "only"],
+      ["it", "only"],
+      ["fit"],
+      ["fdescribe"],
+      ["xit"],
+      ["xdescribe"]
+    ],
+
+
+    "interface-name": false,
+    "file-header": [false,
+      "Copyright \\d{4} XPO Logistics, Inc."
+    ],
+    "max-classes-per-file": false,
+    "member-ordering": [false,
+      "static-before-instance",
+      "variables-before-functions"
+    ],
+    "no-console": {
+      "options": ["log"]
+    },
+    "no-switch-case-fall-through": true,
+    "strict-boolean-expressions": [false, "allow-boolean-or-undefined"],
+    "switch-default": false,
+    "only-arrow-functions": [
+      false,
+      "allow-declarations",
+      "allow-named-functions"
+    ],
+    "comment-format": [
+      true,
+      "check-space"
+    ],
+    "eofline": true,
+    "no-empty": false,
+    "no-duplicate-variable": true,
+    "no-eval": true,
+    "no-arg": true,
+    "no-internal-module": true,
+    "no-trailing-whitespace": true,
+    "no-bitwise": true,
+    "no-shadowed-variable": true,
+    "no-unused-expression": true,
+    "no-unused-var": [true, {
+      "ignore-pattern": "^(_.*)$"
+    }],
+    "no-var-keyword": true,
+    "no-debugger": true,
+    "one-line": [
+      true,
+      "check-catch",
+      "check-else",
+      "check-open-brace",
+      "check-whitespace"
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "semicolon": true,
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    ],
+    "curly": true,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type"
+    ],
+    // Disallows importing the whole RxJS library. Submodules can be still imported.
+    "import-blacklist": [true, "rxjs"],
+    // Avoids inconsistent linebreak styles in source files. Forces developers to use LF linebreaks.
+    "linebreak-style": [true, "LF"]
+  }
+}

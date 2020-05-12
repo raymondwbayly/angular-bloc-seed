@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Avenir;
+}
+
+mat-card {
+  max-width: 80%;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.maindiv {
+  min-height: 100vh;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 94vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.header {
+  height: 80px;
+  color: white;
+  background-color: #2E2A2B;
+}
+
+.menu {
+  height: 80px;
+  color: white;
+  background-color: #2E2A2B;
+  height: 20px;
+  padding-top: 5px;
+  margin-top: 10px;
+}
+
+footer {
+  height: 30px;
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  padding-top: 10px;
+
+}
+
+.title {
+  font-size: 26px;
+  color: #318AC5;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: lighter;
+  padding-left: 50px;
+}
+
+.fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}

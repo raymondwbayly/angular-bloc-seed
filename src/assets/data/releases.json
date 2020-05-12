@@ -1,0 +1,20 @@
+{
+  "releaseList": [{
+    "version": "1.8.0",
+    "title": "Seed Updated to utilize angular 2",
+    "releasedate": "09/01/2017",
+    "description": "This version takes advantage of the latest 2.x version of Angular and its components , this system also updates the services and components on the system"
+  },
+  {
+    "version": "1.9.0",
+    "title": "Seed Updated to Angular 4",
+    "releasedate": "10/16/2017",
+    "description": "This version takes advantage updates to the latest version of angular 4.x and leverages new http2 and the latest component updates and upgrades"
+  },
+  {
+    "version": "2.0.0",
+    "title": "BC Angular 5 Seed For use with common ui and board 2 libraries",
+    "releasedate": "10/16/2017",
+    "description": "This is the latest version of the ng seed for use with the updated 2.0 libraries for board 2 and common, This has examples and templates preset to allow you to easily get started building a Angular 5 Project"
+  }]
+}

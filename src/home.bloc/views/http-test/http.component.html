@@ -1,0 +1,29 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="app-container">
+  <mat-card class="http-test-card">
+    <mat-card-header>
+      <div mat-card-avatar class="header-image"></div>
+      <mat-card-title-group>
+        <mat-card-title>
+          HTTP TEST MODULE
+        </mat-card-title>
+        <mat-card-subtitle>Testing Connection</mat-card-subtitle>
+      </mat-card-title-group>
+    </mat-card-header>
+    <br>
+    <br>
+    <img mat-card-image src="/assets/i/connection-test.jpg" alt="Connection Test">
+    <br>
+    <br>
+    <mat-card-content>
+      <p>
+        This is the connection test, testing a test example service allowing you to ensure that the seed is connected and working.
+        Open Browser Console to see results of the call
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button (click)="method1Call()">Successfull Request</button>
+      <button mat-button (click)="method2Call()">404 Error Request</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

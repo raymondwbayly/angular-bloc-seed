@@ -1,0 +1,45 @@
+
+.app-container {
+  margin: 50px;
+  padding-top: 100px;
+}
+
+.http-test-card {
+  width: 600px;
+}
+
+.header-image {
+  background-image: url("/assets/i/version-icon.jpg");
+  background-size: cover;
+}
+
+.description {
+  font-size: 22px;
+  font-family: Arial;
+  padding: 20px;
+  margin: 20px;
+}
+
+.releasetitle {
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(57, 49, 131);
+}
+
+.releaseversion {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(156, 23, 52);
+}
+
+.releasedate {
+  font-size: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  color: rgb(68, 63, 64);
+}
+
+.releasedescription {
+  font-size: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  color: rgb(68, 63, 64);
+}

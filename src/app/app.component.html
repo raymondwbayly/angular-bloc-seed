@@ -1,0 +1,31 @@
+<div class="maindiv">
+  <mat-toolbar class="header">
+    <mat-toolbar-row>
+      <img src="{{ this.logo }}" height="60" width="60" />
+      <span class="title">{{ this.title }}</span>
+      <span class="fill-remaining-space"></span>
+      <span class="menu">
+      <button mat-button [matMenuTriggerFor]="menu">Company</button>
+      <mat-menu #menu="matMenu">
+          <button mat-menu-item [routerLink]="['./home/index']" routerLinkActive="active">Home</button>
+        <button mat-menu-item [routerLink]="['./home/contact']" routerLinkActive="active">Contact</button>
+        <button mat-menu-item [routerLink]="['./home/version']" routerLinkActive="active">Version</button>
+        <button mat-menu-item [routerLink]="['./home/httptest']" routerLinkActive="active">HTTP Test</button>
+      </mat-menu>
+    </span>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <div class="site">
+    <div class="content">
+      <div align="center">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+    <footer>
+      <div align="center">
+        Version: {{ this.version }}
+      </div>
+    </footer>
+  </div>
+</div>
